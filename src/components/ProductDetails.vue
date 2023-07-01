@@ -41,8 +41,12 @@ export default {
 
 <style lang="scss" scoped>
 .product_box { 
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 300px;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 </style>
